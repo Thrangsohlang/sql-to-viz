@@ -35,7 +35,7 @@
 3. Enter your query to view the  visualization interface.
 
 ## Contributing
-Feel free to fork the repository and submut pull requests.
+Feel free to fork the repository and submit pull requests.
 
 ## License
 This project is licensed under the MIT License.
