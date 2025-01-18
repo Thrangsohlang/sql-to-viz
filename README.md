@@ -18,7 +18,7 @@
    ```bash
    git clone https://github.com/Thrangsohlang/sql-to-viz.git
    ```
-2. Install Peotry to your system. Use below commands for basic installation (taken from peotry docs).
+2. Install Poetry to your system. Use below commands for basic installation (taken from poetry docs).
    ```bash
    pipx install poetry
    ```
