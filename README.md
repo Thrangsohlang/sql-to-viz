@@ -18,4 +18,27 @@
    ```bash
    git clone https://github.com/Thrangsohlang/sql-to-viz.git
    ```
-2. 
+2. Install Peotry to your system. Use below commands for basic installation (taken from peotry docs).
+   ```bash
+   pipx install poetry
+   ```
+3. Install all requirements by running
+   ```bash
+   poetry install
+   ```
+## Usage
+1. Create your own .env file with openai API key in it. Make sure to change the config file with your own database and password.
+2. Run the app
+   ```bash
+   python - app.main
+   ```
+3. Enter your query to view the  visualization interface.
+
+## Contributing
+Feel free to fork the repository and submut pull requests.
+
+## License
+This project is licensed under the MIT License.
+
+### Let me know if you need further customization.
+   
