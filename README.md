@@ -6,10 +6,10 @@
 
 ## Features
 
-- converts user query to SQL query.
+- Converts user query to SQL query.
 - Convert SQL query results into interactive plots.
 - Easy integration with different SQL databases.
-- model will output best possible plots based on the data.
+- Model will output best possible plots based on the data.
 - Visualize data trends and relationships.
 
 ## Installation
@@ -30,7 +30,7 @@
 1. Create your own .env file with openai API key in it. Make sure to change the config file with your own database and password.
 2. Run the app
    ```bash
-   python - app.main
+   python -m app.main
    ```
 3. Enter your query to view the  visualization interface.
 
