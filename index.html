@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL to Viz</title>
+    <!-- Plotly CDN for interactive plots -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>SQL to Viz</h1>
+    <div>
+        <label for="sqlQuery">Enter SQL Query:</label><br>
+        <textarea id="sqlQuery" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <label for="question">Enter Question:</label><br>
+        <input type="text" id="question">
+    </div>
+    <button onclick="submitQuery()">Submit</button>
+
+    <div id="plotDiv">
+        <!-- Plot will be displayed here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
